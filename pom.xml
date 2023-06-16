@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>spring-boot-restful-web-service-introduction</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>edu-spring-container-annotation</module>
+        <module>edu-spring-container-annotation-sample</module>
+        <module>edu-spring-container-javaconfig</module>
+        <module>edu-spring-container-javaconfig-sample</module>
+        <module>edu-spring-rest-intro</module>
+        <module>edu-spring-rest-intro-sample</module>
+        <module>edu-spring-validation</module>
+        <module>edu-spring-validation-sample</module>
+        <module>edu-spring-exception1</module>
+        <module>edu-spring-exception1-sample</module>
+        <module>edu-spring-mybatis</module>
+        <module>edu-spring-mybatis-sample</module>
+        <module>edu-spring-mybatis-dynamic-sql-sample</module>
+        <module>edu-spring-service</module>
+        <module>edu-spring-service-sample</module>
+        <module>edu-spring-rest-complete</module>
+        <module>edu-spring-rest-complete-sample</module>
+        <module>edu-spring-rest-request-param-sample</module>
+        <module>edu-spring-rest-record-sample</module>
+        <module>edu-spring-exception2</module>
+        <module>edu-spring-exception2-sample</module>
+        <module>edu-spring-mybatis-mapping-sample</module>
+        <module>edu-spring-mybatis-join-mapping-sample</module>
+        <module>edu-spring-validation-nested-sample</module>
+        <module>edu-spring-validation-group-sample</module>
+        <module>edu-spring-receive-multiple-parameters-sample</module>
+        <module>appendix.record</module>
+        <module>edu-spring-test-sample</module>
+    </modules>
+
+</project>

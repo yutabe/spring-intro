@@ -1,0 +1,9 @@
+{
+  "name": "和田三郎",
+  "joinedDate": "2022-01-01",
+  "email": "wada@example.com",
+  "birthDay": "1989-12-22",
+  "department": {
+    "id": ""
+  }
+}

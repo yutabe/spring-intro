@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.persistence.mapper.DepartmentMapper">
+    <resultMap id="findAllMapping" type="Department">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <!-- collection要素で has many の関係のネストした関連エンティティのマッピングができる -->
+        <collection property="employees" ofType="Employee">
+            <id column="employee_id" property="id"/>
+            <result column="employee_name" property="name"/>
+            <result column="joined_date" property="joinedDate"/>
+            <result column="email" property="email"/>
+            <result column="birth_day" property="birthDay"/>
+            <result column="department_id" property="departmentId"/>
+        </collection>
+    </resultMap>
+    <select id="findAll" resultMap="findAllMapping">
+        SELECT d.id,
+               d.name,
+               e.id   AS employee_id,
+               e.name AS employee_name,
+               e.joined_date,
+               e.email,
+               e.birth_day,
+               e.department_id
+        FROM department d
+                 LEFT OUTER JOIN employee e ON d.id = e.department_id
+    </select>
+
+</mapper>

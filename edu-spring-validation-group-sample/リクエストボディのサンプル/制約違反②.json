@@ -1,0 +1,9 @@
+{
+  "name": "12345678901",
+  "joinedDate": "2050-01-01",
+  "email": "aaa.aaa.aaa",
+  "birthDay": "2050-01-01",
+  "department": {
+    "id": 20
+  }
+}

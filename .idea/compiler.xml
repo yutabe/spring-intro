@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="edu-spring-container-annotation-sample" />
+        <module name="edu-spring-mybatis" />
+        <module name="edu-spring-rest-record-sample" />
+        <module name="edu-spring-mybatis-join-mapping-sample" />
+        <module name="edu-spring-validation-sample" />
+        <module name="edu-spring-rest-intro" />
+        <module name="edu-spring-validation-nested-sample" />
+        <module name="edu-spring-container-annotation" />
+        <module name="edu-spring-container-javaconfig-sample" />
+        <module name="edu-spring-mybatis-mapping-sample" />
+        <module name="edu-spring-rest-intro-sample" />
+        <module name="edu-spring-mybatis-sample" />
+        <module name="edu-spring-rest-complete" />
+        <module name="edu-spring-exception1-sample" />
+        <module name="appendix.record" />
+        <module name="edu-spring-rest-complete-sample" />
+        <module name="edu-spring-exception2-sample" />
+        <module name="edu-spring-service" />
+        <module name="edu-spring-rest-request-param-sample" />
+        <module name="edu-spring-validation" />
+        <module name="edu-spring-test-sample" />
+        <module name="edu-spring-container-javaconfig" />
+        <module name="edu-spring-exception2" />
+        <module name="edu-spring-mybatis-dynamic-sql-sample" />
+        <module name="edu-spring-exception1" />
+        <module name="edu-spring-receive-multiple-parameters-sample" />
+        <module name="edu-spring-validation-group-sample" />
+        <module name="edu-spring-service-sample" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="edu-spring-exception1" options="-parameters" />
+      <module name="edu-spring-exception1-sample" options="-parameters" />
+      <module name="edu-spring-exception2" options="-parameters" />
+      <module name="edu-spring-exception2-sample" options="-parameters" />
+      <module name="edu-spring-mybatis" options="-parameters" />
+      <module name="edu-spring-mybatis-dynamic-sql-sample" options="-parameters" />
+      <module name="edu-spring-mybatis-join-mapping-sample" options="-parameters" />
+      <module name="edu-spring-mybatis-mapping-sample" options="-parameters" />
+      <module name="edu-spring-mybatis-sample" options="-parameters" />
+      <module name="edu-spring-receive-multiple-parameters-sample" options="-parameters" />
+      <module name="edu-spring-rest-complete" options="-parameters" />
+      <module name="edu-spring-rest-complete-sample" options="-parameters" />
+      <module name="edu-spring-rest-intro" options="-parameters" />
+      <module name="edu-spring-rest-intro-sample" options="-parameters" />
+      <module name="edu-spring-rest-record-sample" options="-parameters" />
+      <module name="edu-spring-rest-request-param-sample" options="-parameters" />
+      <module name="edu-spring-service" options="-parameters" />
+      <module name="edu-spring-service-sample" options="-parameters" />
+      <module name="edu-spring-test-sample" options="-parameters" />
+      <module name="edu-spring-validation" options="-parameters" />
+      <module name="edu-spring-validation-group-sample" options="-parameters" />
+      <module name="edu-spring-validation-nested-sample" options="-parameters" />
+      <module name="edu-spring-validation-sample" options="-parameters" />
+    </option>
+  </component>
+</project>

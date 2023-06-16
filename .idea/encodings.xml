@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/appendix.record/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appendix.record/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-container-annotation-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-container-annotation-sample/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-container-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-container-annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-container-javaconfig-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-container-javaconfig-sample/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-container-javaconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-container-javaconfig/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-exception1-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-exception1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-exception2-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-exception2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-mybatis-dynamic-sql-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-mybatis-join-mapping-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-mybatis-mapping-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-mybatis-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-receive-multiple-parameters-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-rest-complete-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-rest-complete/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-rest-intro-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-rest-intro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-rest-record-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-rest-request-param-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-service-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-test-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-validation-group-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-validation-nested-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-validation-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-spring-validation/src/main/java" charset="UTF-8" />
+  </component>
+</project>

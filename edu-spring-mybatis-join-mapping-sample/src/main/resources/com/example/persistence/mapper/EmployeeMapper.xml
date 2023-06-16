@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.persistence.mapper.EmployeeMapper">
+    <!-- resultMap要素でマッピングのルールの設定を行う -->
+    <!-- type属性でマッピングするエンティティクラスを指定する -->
+    <!-- id属性でマッピングルールにIDを設定する -->
+    <resultMap id="findAllMapping" type="Employee">
+        <!-- id要素で主キー列、result要素でそれ以外の列をエンティティクラスのフィールドをマッピングする -->
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="joined_date" property="joinedDate"/>
+        <result column="email" property="email"/>
+        <result column="birth_day" property="birthDay"/>
+        <result column="department_id" property="departmentId"/>
+        <!-- association要素で has one の関係のネストした関連エンティティのマッピングができる -->
+        <association property="department" javaType="Department">
+            <id column="d_id" property="id"/>
+            <result column="department_name" property="name"/>
+        </association>
+    </resultMap>
+    <!-- select要素のresultMap属性でマッピングのルールを設定する -->
+    <select id="findAll" resultMap="findAllMapping">
+        SELECT e.id,
+               e.name,
+               e.joined_date,
+               e.email,
+               e.birth_day,
+               e.department_id,
+               d.id   AS d_id,
+               d.name AS department_name
+        FROM employee e
+                 JOIN department d ON e.department_id = d.id
+    </select>
+
+</mapper>
